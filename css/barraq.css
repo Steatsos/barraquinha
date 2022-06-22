@@ -1,0 +1,276 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, p, figcaption {
+    font-family: 'Josefin Sans';
+    color:#000000;
+}
+figcaption {
+    font-size: 12px;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+p {
+    text-align: left;
+}
+ul, ol {
+    background-color:rgb(230, 230, 230);
+}
+li {
+    font-family: 'Josefin Sans';
+    color:#fff;
+    padding: 10px 15px;
+}
+header {
+    padding: 2% 0;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(252, 14, 14) 0%, rgb(139, 0, 0) 100%);
+    color:#ffffff;
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    padding: 0;
+    background:linear-gradient(90deg, rgb(252,14,14)0%,rgb(139,0,0)100%);
+}
+section {
+    float: left;
+
+}
+
+a:link {
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    color:rgb(255, 255, 255);
+}
+a:visited {
+    color:rgb(255, 255, 255);
+}
+a:hover {
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    color:rgb(255, 208, 78);
+    border-radius: 3px;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+table th {
+    text-align: center;
+    padding: 5px 0;
+}
+table {
+    margin:0;
+    width: 100%;
+}
+
+iframe {
+    box-shadow: 2px 9px 21px 0px rgba(0,0,0,0.4);
+}
+/*fim-tags*/
+
+/*classes*/
+.darkyellow:link {
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    color:rgb(238, 185, 10);
+}
+.darkyellow:visited {
+    color:rgb(238, 185, 10);
+}
+.darkyellow:hover {
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    color:#000;
+    background-color: rgb(255, 230, 116);
+    border-radius: 3px;
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.normal:link {
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    color: transparent;
+}
+.normal:visited {
+    color: transparent;
+}
+.normal:hover {
+    text-decoration: none;
+    color: transparent;
+    background-color: transparent;
+    padding: 0 0 5px 0;
+    transition: 0.5s;
+}
+.black:link {
+    color: #000;
+}
+.black:visited {
+    color: #000;
+}
+
+.pbr {
+    color:#ffffff;
+    text-align:center;
+}
+.pbrt {
+    color:#ffffff;
+    text-align:center;
+    font-size: 40px;
+    font-family: 'bebasneue';
+}
+
+.acen:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+}
+.conteudo {
+    background-color:#f9f9f9;
+    padding: 15px 10% 15px 30%;
+}
+.divtable {
+    margin:0;
+    padding: 10px 15% 10px 18%;
+}
+.boxmenor {
+    padding: 10px 20%;
+}
+
+.l1 {
+    font-family: 'Josefin Sans';
+    color: #000000;
+    background-color: #e2e2e2;
+}
+.l2 {
+    font-family: 'Josefin Sans';
+    color: #000000;
+    background-color: #ffffff;
+}
+.l3{
+    padding:0px 15px;
+    color:#000000;
+    background-color: #ffffff;
+    font-family: 'Josefin Sans';
+}
+
+
+.conteudowallpaper {
+    background-image: url("../imgs/ladrilho.jpg");
+    background-size:auto;
+    padding: 15px 15%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.anuncio {
+    background-image: url('../imgs/wooden.jpg');
+    padding: 30px 10px;
+    height: 340px;
+    width: 55%;
+    border-radius: 20px;
+    margin: 2%;
+    box-shadow: 2px 10px 21px 0px rgba(0,0,0,0.5);
+}
+.icon {
+    margin: auto;
+    width: 500px;
+    transition:2s;
+}
+.logop {
+    margin: auto;
+    display: block;
+}
+
+.headerli {
+    color: #fff;
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px 15px;
+}
+.indiceli {
+    background-color: rgb(207, 18, 18);
+    border-radius: 5px;
+}
+.sociali {
+    display: block;
+    margin: 0 15px 0 10px;
+    padding:5px;
+}
+.bli {
+    display: block;
+    list-style: none outside none;
+}
+/*fim-classes*/
+
+/*Fontes importadas do google*/
+@font-face {
+    font-family: bebasneue;
+    src:url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans-VariableFont_wght.ttf') format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@media (max-width: 1090px) {
+    .anteconteudo {
+        background-color:#f9f9f9;
+        padding: 10px 10%;
+        height: 440px;
+        display: flex;
+        flex-direction: row;
+    }
+    .anuncio {
+        background-image: url('../imgs/wooden.jpg');
+        padding: 30px 10px;
+        height: 350px;
+        width: 80%;
+        border-radius: 20px;
+        margin: 2%;
+        box-shadow: 2px 9px 21px 0px rgba(0,0,0,0.4);;
+    }
+    .icon {
+        width: 400px;
+        margin: auto;
+        padding: 30px 0;
+    }
+}
+@media (max-width: 768px) {
+    table td, th {
+        font-size: large;
+        padding: 2px;
+    }
+    .anteconteudo {
+        background-color:#f9f9f9;
+        padding: 10px 10%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+    .anuncio {
+        background-image: url('../imgs/wooden.jpg');
+        padding: 30px 10px;
+        height: 330px;
+        width: 95%;
+        border-radius: 20px;
+        margin: 2%;
+        box-shadow: 2px 9px 21px 0px rgba(0,0,0,0.4);;
+    }
+    .icon {
+        width: 300px;
+    }
+    .boxmenor {
+        padding: 0px 0%;
+    }
+}
